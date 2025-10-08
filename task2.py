@@ -6,7 +6,6 @@ def draw_inward_spiral():
     screen = turtle.Screen()
     screen.setup(width=900, height=900)
     screen.bgcolor("white")
-    screen.title("Спираль снаружи внутрь")
 
     t = turtle.Turtle()
     t.speed(0)  # Максимальная скорость рисования
